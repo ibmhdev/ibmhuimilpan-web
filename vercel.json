@@ -1,0 +1,9 @@
+// vercel.json (solo si es necesario)
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ]
+}
